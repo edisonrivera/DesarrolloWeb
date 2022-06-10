@@ -1,0 +1,109 @@
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.img-logo{
+    width: 300px;
+    height: 185px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.nav_sobre-mi{
+    text-align: right;
+    padding-right: 100px;
+}
+
+.caracteristics-text{
+    text-align: center;
+    color: #DA0037;
+}
+
+.caracteristics-text-title{
+    text-align: center
+}
+
+.color-red{
+    color: #DA0037;
+}
+
+.section-languajes{
+    width: fit-content;
+    height: fit-content;
+    background-color: #EDEDED;
+    margin-left: 60px;
+    border-radius: 15px;
+}
+
+.image-logo-languajes{
+    width: 290px;
+    height: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    
+}
+
+.image-logo-conocimientos{
+    width: 250px;
+    height: 250px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.section-languajes-text{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.image-logo-uso{
+    width: 110px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.image-logo-vs{
+    width: 250px;
+    padding-left: 80px;
+}
+
+footer{
+    margin-top: 100px;
+    height: 100px;
+    background-color: #DA0037;
+}
+
+.copyright-footer{
+    display: inline;
+    color: #fff;
+}
+
+.iconify-inline{
+    padding-left: 190px;
+}
+
+.details{
+    padding-left: 350px;
+    padding-right: 250px;
+}
+
+.iconos-footer{
+    padding-left: 10px ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-flex{
+    display: inline;
+}
+
+article{
+    display: flex;
+    justify-items: stretch;
+}
