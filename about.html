@@ -36,17 +36,22 @@
             </section>
     </main>
     <h2> Contactame ! </h2>
-    <form class="form" method="POST">
-        <input type="text" name="nombre_usuario" class="form__input" placeholder="Nombre de usuario">
+    <form action="https://formsubmit.co/riveraeddy58@gmail.com" method="POST">
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Nombre sólo acepta letras y espacios en blanco" 
+        required>
+        
         <br>
-        <input type="email" name="correo" class="form__input" placeholder="Example: example@gmail.com">
+
+        <input type="email" name="correo" placeholder="Escribe tu correo" required>
+
         <br>
-        <input type="text" name="asunto" class="form__input" placeholder="Asunto del email">
+        
+        <textarea name="comentarios" cols="90" rows="10" required></textarea>
+        
         <br>
-        <textarea class="form__input" placeholder="Escriba lo que desea decir..."></textarea>
-        <br>
-        <input type="submit" name="enviar" class="form__input">
-    </form>
+
+        <input type="submit">
+      </form>
     <div class="imagen-container">
         <div class="imagen-box">
             <img src="images/logo_correo.png">
